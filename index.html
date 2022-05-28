@@ -25,6 +25,11 @@
 	  <script src="https://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	  <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
 	<![endif]-->
+    <script>
+        $(function() {
+            $("#index-footer").load("index-footer.html");
+        });
+    </script>
 </head>
 
 <body>
@@ -461,105 +466,8 @@
     </div> -->
     <script src="Home/Tpl/default/Public/js/jquery.smoove.min.js"></script>
     <script>$('.group_head,.group_img,.product_head,.product_img,.news_head,.news_img,.about_head,.js_about_left,.js_about_right').smoove({ offset: '10%' });</script>
-    <nav class="navbar navbar-default navbar-fixed-bottom mfoot_box">
-        <!-- <div class="mfoot_nav btn-group dropup">
-            <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
-                <span class="glyphicon glyphicon-share btn-lg" aria-hidden="true"></span>Share
-            </a>
-            <div class="dropdown-menu mfoot_share">
-
-                <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-                    <a class="a2a_dd" href="https://www.addtoany.com/share_save"></a>
-                    <a class="a2a_button_facebook"></a>
-                    <a class="a2a_button_twitter"></a>
-                    <a class="a2a_button_google_plus"></a>
-                    <a class="a2a_button_linkedin"></a>
-                </div>
-
-                <script type="text/javascript" src="../static.addtoany.com/menu/page.js"></script>
-            </div>
-
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-S1TSCCENW3"></script>
-            <script>
-                window.dataLayer = window.dataLayer || [];
-                function gtag() { dataLayer.push(arguments); }
-                gtag('js', new Date());
-
-                gtag('config', 'G-S1TSCCENW3');
-            </script>
-        </div> -->
-        <!-- <div class="mfoot_nav">
-            <a href="tel:86-13410359515">
-                <span class="glyphicon glyphicon-phone btn-lg" aria-hidden="true"></span>Call
-            </a>
-        </div> -->
-        <div class="mfoot_nav">
-            <button id="foot_btn" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-                aria-controls="navbar" style="width:100%; border: 0px; background: transparent;">
-                <span class="glyphicon glyphicon-th-list btn-lg"></span>
-                Menu
-            </button>
-        </div>
-        <div class="mfoot_nav">
-            <a id="gototop" href="#">
-                <span class="glyphicon glyphicon-circle-arrow-up btn-lg" aria-hidden="true"></span>Top
-            </a>
-        </div>
-    </nav>
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-5 col-md-5 footer_contact">
-                    <img class="footer_logo" src="Uploads/5ec5062ba8d7b.png" alt="LOGO">
-                    <p>Call Us: 86 755-86374759</p>
-                    <p>Email Us: sales@igbt.com</p>
-                    <p>Address: B509, Zerun Center, Banxuegang Avenue 4088, Longgang District, Shenzhen, China</p>
-                    <!-- <p>ICP:08118166&nbsp;&nbsp;<a href="sitemap.html" class="footer_sitemap"
-                            target="_blank">Sitemap</a>&nbsp;
-                        <script data-cfasync="false"
-                            src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-                        <script
-                            type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1279020057'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1279020057' type='text/javascript'%3E%3C/script%3E"));</script>
-                        <script src="../code.tidio.co_443/ep1h0rgqdkubdyf0fvf7n6zuk64tlgdr.js" async></script>
-                    </p> -->
-                    <!-- <div class="footer_icon">
-                        <a href="#" target="_blank">
-                            <img src="Uploads/5c1a1358a5241.jpg" class="opacity_img" alt="Facebook">
-                        </a><a href="https://twitter.com/IgbtE" target="_blank">
-                            <img src="Uploads/5c1a1361a15c3.jpg" class="opacity_img" alt="Twitter">
-                        </a><a href="#" target="_blank">
-                            <img src="Uploads/5c1a136d931f6.jpg" class="opacity_img" alt="BYD">
-                        </a><a href="#" target="_blank">
-                            <img src="Uploads/5c1a13880278d.jpg" class="opacity_img" alt="google">
-                        </a>
-                    </div> -->
-                </div>
-                <div class="col-xs-12 col-sm-7 col-md-7">
-                    <div class="col-xs-12 col-md-4 footer_menu">
-                        <p class="footer_menu_first"><a target="_blank" href="#">Products</a></p>
-                        <!-- <p><a target="_blank" href="IGBT-Modules-Manufacturers.html">New Products</a></p> -->
-                        <p><a target="_blank" href="ABB.html">ABB</a></p>
-                        <p><a target="_blank" href="DYNEX.html"> Dynex</a></p>
-                        <p><a target="_blank" href="INFINEON.html">Infineon</a></p>
-                        <p><a target="_blank" href="WESTCODE.html">Westcode</a></p>
-                    </div>
-                    <div class="col-xs-12 col-md-4 footer_menu">
-                        <p class="footer_menu_first"><a target="_blank" href="#">Our Services</a></p>
-                        <p><a target="_blank" href="About.html">About Us</a></p>
-                        <p><a target="_blank" href="https://eigbt.com/Global-Shipment.html">Global Shipment</a></p>
-                        <!-- <p><a target="_blank" href="https://eigbt.com/Why-choose-us.html">Why eIGBT.com</a></p> -->
-                        <!-- <p><a target="_blank" href="Excess-stock.html">Excess stock</a></p> -->
-                    </div>
-                    <div class="col-xs-12 col-md-4 footer_menu">
-                        <p class="footer_menu_first"><a target="_blank" href="#">Quality Warranty</a></p>
-                        <p><a target="_blank" href="Quality-Warranty.html">Quality Warranty</a></p>
-                        <p><a target="_blank" href="Quality-Policy.html">Quality Policy</a></p>
-                        <p><a target="_blank" href="RoHS-Compliance.html">RoHS Compliance</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    
+    <div id="index-footer"></div>
     <div class="tags_box">
         <div class="container">
             <span class="tags_title">
